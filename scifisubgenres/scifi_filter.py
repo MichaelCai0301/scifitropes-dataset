@@ -1,5 +1,6 @@
 import os
 # pip3 install pandas
+#! `python3 scifi_filter.py` to run!
 import pandas as pd
 
 # Create all_scifi_genres.csv by concatenating all CSV files in the scifi_genres directory
@@ -32,3 +33,4 @@ if test_scifi_filter:
     input_test_file = os.path.join(os.path.dirname(__file__), 'test.csv')
     output_test_file = os.path.join(os.path.dirname(__file__), 'test_filtered.csv')
     filter_scifi_genres(input_test_file, output_test_file)
+    print("Test filtering complete. Check 'test_filtered.csv'.")
