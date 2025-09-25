@@ -1,3 +1,13 @@
+# IMPORTANT NOTES!!!!!:
+
+All the data to be used are in the files `scifianimedb_with_years_filtered.csv`, `scififilmdb_with_years_filtered.csv`, `scifivideogamesdb_with_years_filtered.csv`, which are inside the `altered_data` folder. Those files were obtained by merging / filtering out the other csv files in the folder. The process of merging and filtering takes place in `playground.ipynb`.
+
+The folder `scifisubgenres` contains the folders `not_scifi_genres` and `scifi_genres`. Anything that is in `not_scifi_genres` will be excluded. `scifi_filter.py` is used to create `all_scifi_genres.csv`, the master list of all media that belongs to `scifi_genres`. After created, `all_scifi_genres.csv` was moved from the `scifisubgenres` folder to the `altered_data` folder.
+
+
+
+
+
 # scifitropes
 
 ## Exploring Science Fiction works and tropes with data from TVTropes.org.
