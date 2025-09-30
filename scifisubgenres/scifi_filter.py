@@ -30,7 +30,7 @@ def filter_scifi_genres(input_csv, output_csv):
     filtered_df.to_csv(output_csv, index=False)
     print("Filtered")
 
-# Test: (it works!)
+# Test: (it works!).       
 test_scifi_filter = False
 if test_scifi_filter:
     filter_scifi_genres('test.csv', 'test_filtered.csv')
